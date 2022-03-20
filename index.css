@@ -36,3 +36,9 @@ body{
     width: 10px;
     display: inline-block;
 }
+@media screen and (max-width:1000px) {
+    .legends{
+        font-size: 0.9em;
+        margin-bottom: 10px;
+    }
+}

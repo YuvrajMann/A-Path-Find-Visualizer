@@ -60,8 +60,12 @@ function removeArrayElement(mySet,element){
     }
 }
 function setup() {
-    createCanvas(400, 400);
-
+    console.log(windowWidth);
+    if(windowWidth < 1200) {
+        createCanvas(800,800);
+    } else {
+        createCanvas(400,400);
+    }
     w=width/cols;
     h=height/rows;
 
@@ -170,3 +174,4 @@ function draw() {
         path[i].show(color(0,0,255));
     }
 }
+
