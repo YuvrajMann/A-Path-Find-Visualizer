@@ -1,0 +1,38 @@
+.header{
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+body{
+    text-align: center;
+}
+.header ul{
+    text-transform: none;
+}
+.legends{
+    font-size: 0.7em;
+    margin-bottom: 10px;
+}
+.legends .open{
+    background-color: rgb(0, 255, 0);
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+}
+.legends .close{
+    background-color: rgb(255, 0, 0);
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+}
+.legends .optimal{
+    background-color: rgb(0, 0, 255);
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+}
+.legends .obstacles{
+    background-color: rgb(0, 0, 0);
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+}
